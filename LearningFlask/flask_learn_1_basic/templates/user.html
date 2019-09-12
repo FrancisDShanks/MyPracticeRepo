@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Flasky{% endblock %}
+
+{% block page_content %}
+	<div class="page-header">
+		<h1>
+			{% if user %}
+			Hello, {{ user }}!
+			{% else %}
+			Hello, stranger!
+			{% endif %}
+		</h1>
+	</div>
+{% endblock %}

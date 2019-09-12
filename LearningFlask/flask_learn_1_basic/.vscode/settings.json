@@ -1,0 +1,5 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.pep8Enabled": true,
+    "python.pythonPath": "/home/fdu/anaconda3/envs/flask_env/bin/python"
+}

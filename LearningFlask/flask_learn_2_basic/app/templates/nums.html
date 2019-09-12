@@ -1,0 +1,9 @@
+<h1>Hello lets count numbers</h1>
+{% macro render_comment(comment)%}
+    <li>{{ comment }}</li>
+{% endmacro %}
+<ul>
+    {% for n in nums %}
+        {{ render_comment(n) }}
+    {% endfor%}
+</ul>
