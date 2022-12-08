@@ -2,7 +2,7 @@ alembic==1.0.8
 astroid==2.2.5
 autopep8==1.4.3
 blinker==1.4
-certifi==2019.3.9
+certifi==2022.12.7
 Click==7.0
 dominate==2.3.5
 Flask==1.0.2
